@@ -56,7 +56,6 @@ public class ListarVehiculosView extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Logística - Listar Vehículos");
-        setPreferredSize(new java.awt.Dimension(640, 480));
         setSize(new java.awt.Dimension(640, 480));
 
         vehiculosGrid.setModel(new javax.swing.table.DefaultTableModel(
@@ -190,6 +189,8 @@ public class ListarVehiculosView extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(ListarVehiculosView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 

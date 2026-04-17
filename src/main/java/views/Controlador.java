@@ -31,4 +31,7 @@ public class Controlador {
         }
         return new double[] {consumoElectricos, consumoCombustible};
     }
+    public static void agregarVehiculo(Vehiculo vehiculo){
+    Persistencia.getVehiculos().add(vehiculo);
+}
 }
